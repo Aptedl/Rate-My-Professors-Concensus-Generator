@@ -1,10 +1,10 @@
 # Rate-My-Professors-Concensus-Generator
-A desktop application that looks up a professor on Rate My Professors, scrapes their reviews, and uses Google Gemini to generate a concise consensus paragraph.
+A desktop application that looks up a professor on Rate My Professors, scrapes their reviews, and uses Google Gemini to generate a concise consensus paragraph. It is a first step towards my goal of building a website that allows users to get a Gemini concensus of a course or professor from RMP.
 
 **Installation Instructions (exe):**
 1. **Set your Gemini API key**  
 
-The app reads your key from the GEMINI_API_KEY environment variable.  
+The app reads your key from the GEMINI_API_KEY environment variable. To get an API key, go to [Google AI Studio](ai.dev), then click Get API Key on the bottom left. It's free and only requires a Google Account. This app uses Gemini 3.1 Flash Lite, which is lightweight and doesn't use too many tokens.
 
 **macOS / Linux**:
 ```
