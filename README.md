@@ -4,7 +4,8 @@ A desktop application that looks up a professor on Rate My Professors, scrapes t
 **Installation Instructions (exe):**
 1. **Set your Gemini API key**  
 
-The app reads your key from the GEMINI_API_KEY environment variable.
+The app reads your key from the GEMINI_API_KEY environment variable.  
+
 **macOS / Linux**:
 ```
 export GEMINI_API_KEY="your-key-here"
