@@ -8,11 +8,11 @@ The app reads your key from the GEMINI_API_KEY environment variable. To get an A
 
 **macOS / Linux**:
 ```
-export GEMINI_API_KEY="your-key-here"
+export GEMINI_API_KEY = "your-key-here"
 ```
 **Windows (Command Prompt/Terminal)**:
 ```
-set GEMINI_API_KEY="your-key-here"
+set GEMINI_API_KEY = "your-key-here"
 ```
 2. **Run the app**  
 
@@ -35,11 +35,11 @@ The app reads your key from the GEMINI_API_KEY environment variable.
 
 **macOS / Linux**:
 ```
-export GEMINI_API_KEY="your-key-here"
+export GEMINI_API_KEY = "your-key-here"
 ```
 **Windows (Command Prompt)**:
 ```
-set GEMINI_API_KEY="your-key-here"
+set GEMINI_API_KEY = "your-key-here"
 ```
 4. **Run the app**
 ```
