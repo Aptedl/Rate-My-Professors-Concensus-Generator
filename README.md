@@ -12,7 +12,7 @@ export GEMINI_API_KEY = "your-key-here"
 ```
 **Windows (Command Prompt/Terminal)**:
 ```
-set GEMINI_API_KEY = "your-key-here"
+setx GEMINI_API_KEY "your-key-here"
 ```
 2. **Run the app**  
 
@@ -37,9 +37,9 @@ The app reads your key from the GEMINI_API_KEY environment variable.
 ```
 export GEMINI_API_KEY = "your-key-here"
 ```
-**Windows (Command Prompt)**:
+**Windows (Command Prompt/Terminal)**:
 ```
-set GEMINI_API_KEY = "your-key-here"
+setx GEMINI_API_KEY "your-key-here"
 ```
 4. **Run the app**
 ```
