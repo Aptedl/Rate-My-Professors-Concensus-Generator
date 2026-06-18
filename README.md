@@ -6,18 +6,15 @@ A desktop application that looks up a professor on Rate My Professors, scrapes t
 Go to releases (on the right side) and select the latest version. Download SourceCode.zip, tell Windows SmartScreen to bypass any warnings (I swear it's not a virus!) and extract the zip (right click -> extract).
 
 2. **Set your Gemini API key**  
-
 The app reads your key from the GEMINI_API_KEY environment variable. To get an API key, go to [Google AI Studio](https://ai.dev), then click Get API Key on the bottom left. It's free and only requires a Google Account. This app uses Gemini 3.1 Flash Lite, which is lightweight and doesn't use too many tokens.
 
-```
 **Windows (Command Prompt/Terminal)**:
 ```
 setx GEMINI_API_KEY "your-key-here"
 ```
 3. **Run the app**  
 
-Run the .exe file. The app may crash if the Gemini model used (3.1 Flash Lite) is overloaded.
-
+Run the .exe file. The app may crash if the Gemini model used (3.1 Flash Lite) is overloaded (this will give an error saying exactly that). This isn't too common though. Also, especially for classes, it may seem like the app is crashing; it's just really slow (it has to scrape an entire department), so just wait a few minutes and it'll show up.
 
 **Installation Instructions (non-exe):**
 1. **Clone the repository**
